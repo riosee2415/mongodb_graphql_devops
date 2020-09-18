@@ -1,0 +1,13 @@
+type Query {
+  allEmployees: [Employees!]!
+}
+
+type Employees {
+  _id: ID!
+  name: String!
+  age: Int!
+  birth: String!
+  gender: String!
+  team: String!
+  e_job: String!
+}
